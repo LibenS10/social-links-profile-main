@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+h1{
+    margin-bottom: 0;
+    font-size: 1.75rem;
+}
+p{
+    margin-top: 20px;
+}
+h2{
+    color: hsl(75, 94%, 57%);
+    margin-top: 15px;
+    font-size: 1rem;
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    margin: 50px auto;
+    width: 320px;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 13px;
+}
+img{
+    border-radius: 100px;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 13px;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 20%);
+}
